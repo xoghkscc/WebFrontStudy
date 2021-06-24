@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03_CSS</title>
+
+    <style>
+        .internal{
+            color: rgb(255, 0, 0);
+        }
+    </style>
+    <link rel="stylesheet" href="./sheets/03_CSS.css">
+
+</head>
+
+<body>
+    <div>
+        <div class="internal">  2. Internal CSS (페이지 내부 CSS) <br> </div>
+       
+        -head에 style태그를 이용하여 스타일을적용하는 방식
+        -더 나중에 나온 스타일시트가 우선순위가 높다
+    </div>
+    <div>
+        <div class="external"> 3. External CSS (페이지 외부 CSS) <br></div>
+        -외부에 .css 파일을 불러와 페이지에 적용하는 방식
+        -외부의 .css파일을 부를 때 <ling>(&ltlink&gt;)를 이용한다
+            -우선 순위는 internal CSS와 같다
+    </div>
+
+
+
+</body>
+
+</html>
