@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+div{
+    font-size: 35px;
+}
+
+#div1{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#div2{
+    font-family: 'Kirang Haerang', cursive;
+}

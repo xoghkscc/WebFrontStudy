@@ -1,0 +1,30 @@
+p{
+    font-size: 35px;
+    padding: 30px;
+    color: white;
+}
+
+#shadow1{
+    text-shadow: 5px 5px 10px red;
+}
+#shadow2{
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 15px white;
+    text-shadow: 0 0 20px lime;
+    text-shadow: 0 0 30px lime;
+}
+#shadow3{
+    font-size: 50px;
+    color: gray;
+    background-color: gray;
+    text-shadow: -1px -1px 0px white, 1px 1px 0px black;
+}
+#shadow4{
+    font-size: 50px;
+    color: gray;
+    background-color: gray;
+    text-shadow: 1px 1px 0px white, -1px -1px 0px black;
+}
