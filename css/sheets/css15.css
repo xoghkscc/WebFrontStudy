@@ -1,0 +1,80 @@
+.flex-container{
+    display: flex;
+    background-color: plum;
+    margin: 15px;
+}
+
+.flex-container > div{
+    background-color: white;
+    padding: 30px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+
+#contsiner1{
+    flex-direction: row-reverse;
+}
+#contsiner2{
+    flex-direction: row;
+}
+#contsiner3{
+    flex-wrap: wrap;
+}
+#contsiner4{
+    flex-wrap: nowrap;
+}
+
+.head{
+    background-color: darkred;
+    color: white;
+
+    padding: 30px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.nav-bar{
+    display: flex;
+
+}
+
+.nav-bar> * {
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    border: solid 3px white;
+}
+
+.content{
+    display: flex;
+    height: 600px;
+}
+
+.content > :first-child{
+    width: 30%;
+    background-color: gray;    
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.content > :last-child{
+    width: 70%;
+    background-color: rosybrown;
+    align-items: baseline;
+}
+
+.side-bar >*{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.footer{
+    height:250px;
+    background-color: royalblue;
+}

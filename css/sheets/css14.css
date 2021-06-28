@@ -1,0 +1,35 @@
+#inline-sample > span{
+    background-color: yellow;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+}
+#block-sample > span{
+    background-color: yellow;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+#inline-block-sample > span{
+    background-color: yellow;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+p.test{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+.none{
+    display: none;
+}
+
+.hidden{
+    visibility: hidden;
+}

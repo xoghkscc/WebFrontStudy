@@ -1,0 +1,25 @@
+dl{
+    font-size: 35px;
+    border: dashed orange;
+    padding: 30px;
+    margin: 30px;
+}
+
+dt{
+    font-weight: bold;
+    background-color: aqua;
+}
+
+dd{
+    font-size: 0.7em;
+}
+
+dd:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="text"]:disabled{
+    background-color: burlywood;
+}
