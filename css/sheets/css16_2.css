@@ -1,0 +1,208 @@
+
+
+header {
+    background-color: blue;
+    border: solid 1px;
+    height: 20vh;
+}
+
+.content{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.mainmenuqa{
+    flex-direction: column;
+    width: 70%;
+    height: 700px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.menu{
+    background-color: red;
+    border: solid 1px black;
+    height: 80%;
+    margin-bottom: 10px;
+}
+.qa{
+    background-color: coral(100, 31, 31);
+    border: solid 1px black;
+    height: 20%;
+    flex-direction: row;
+    display: flex;
+    background-color: lightcoral;
+}
+
+.qa>*{
+    border: solid 1px black;
+    width: 50%;
+    margin: 10px;
+    background-color: indigo;
+}
+
+.submenu{
+    background-color: indigo;
+    width: 30%;
+    padding: 20px;
+}
+
+.login{
+    height: 10%;
+    background-color: green;
+    border: solid 1px black;
+}
+
+.ganpun{
+    height: 8%;
+    padding-top: 10px;
+    background-color: brown;
+    border: solid 1px black;
+}
+
+.ganpuncontent{
+    background-color: cornsilk;
+    border: solid 1px black;
+    height: 80%;
+}
+
+.search{
+    height: 250px;
+}
+
+.contentimg{
+    background-color: brown;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+}
+.img{
+    background-color: coral;
+    border: solid 1px black;
+    height: 100%;
+    width: 100%;
+}
+.find{
+    background-color: darkseagreen;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgdata{
+    background-color: darkorchid;
+    border: solid 1px black;
+    width: 100%;
+    height: 100%;
+}
+
+.findtext{
+    margin-bottom: 10px;
+    border: solid 1px black;
+    background-color: darkorchid;
+    text-align: center ;
+    height: 80px;
+}
+
+.findsearch{
+    border:solid 1px black;
+    background-color: chocolate;
+    height: 100%;
+}
+
+.clickmain{
+    padding: 20px;
+}
+
+.click{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: khaki;
+}
+
+.clickbox{
+    border: solid 1px black;
+    width: 30%;
+    margin: 10px 0px;
+    background-color: darkslategrey;
+}
+
+.annae{
+    height: 300px;
+    background-color: lawngreen;
+}
+
+.leftannae{
+    background-color: fuchsia;
+    border: solid 1px black;
+    width: 35%;
+}
+
+.rightannae{
+    background-color: cornsilk;
+    border: solid 1px black;
+    width: 65%;
+
+}
+
+.annaetext{
+    border: solid 1px black;
+    background-color: gold;
+    text-align: left;
+    height: 20%;
+}
+
+.annaemenu{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.annaemenu2{
+    width: 100%;
+    height: 25%;
+    border: solid 1px black;
+    background-color: indigo;
+}
+
+.gridmain{
+    padding: 20px;
+    height: 300px;
+    margin-bottom: 50px;
+    background-color: purple;
+    margin: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70% 30%;
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 90%;
+}
+
+.gridbox{
+    background-color: palegreen;
+    border: solid 1px black;
+}
+
+footer{
+    height: 25vh;
+    background-color: red;
+}
+
+.footermenusmall{
+    height: 25%;
+    border: solid 1px black;
+    background-color: blue;
+}
+.footermenubig{
+    height: 50%;
+    border: solid 1px black;
+    background-color: darkolivegreen;
+}
