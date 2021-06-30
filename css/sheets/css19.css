@@ -1,0 +1,37 @@
+.nav-bar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    top: 0px;
+    left: 0px;
+
+}
+
+.nav-bar>a{
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+}
+
+.nav-bar>a:visited{
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-bar>a{
+        background-color: red;
+    }
+}
+@media print and (max-width: 600px){
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-bar>a{
+        background-color: darkturquoise;
+    }
+}

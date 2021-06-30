@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+.rect{
+    width: 200px;
+    height: 200px;
+    border: solid 3px black;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+#div1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#div2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+}
+
+#div3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.container{
+    width:500px;
+    height: 500px;
+    border: solid 1px black;
+    position: relative;
+    z-index: 3;
+}
+
+.tetris{
+    width: 300px;
+    height: 50px;
+    border: solid 3px black;
+    position: sticky;
+}
+
+.nav-bar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+}
+
+.nav-bar>i{
+    position: relative;
+    top: 12px;
+    margin-right: 15px;
+    user-select: none;
+}
+
+.nav-bar>i:first-child{
+    margin-left: 15px;
+}
+
+#block1{
+    top: 50px;
+    left: 100px;
+}
+#block2{
+    top: 100px;
+    left: 150px;
+}
+#block3{
+    top: 150px;
+    left: 200px;
+}
