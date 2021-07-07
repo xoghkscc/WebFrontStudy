@@ -120,11 +120,11 @@ b 태그 : 굵은 글씨
    *	in : 인치
 #### 상대 길이 단위
 *	em : 현재 요소의 font-size에 비례한 크기조절
- * 2.0em일 때 현재 요소에 설정된 font-size의 2배
+  * 2.0em일 때 현재 요소에 설정된 font-size의 2배
 *	rem : 현제 페이지 html태그에 설정된 font-size에 비례한 크기 조절
- * 2.0rem일 때 현재 페이지의 html 태그에 설정된 font-size의 두 배
+  * 2.0rem일 때 현재 페이지의 html 태그에 설정된 font-size의 두 배
 *	vw : viewport width. 현재 웹 페이지를 보고있는 프로그램의 너비에 기반
- * 1vw일 때 현재 viewport width의 1%를 의미
+  * 1vw일 때 현재 viewport width의 1%를 의미
 *	vh : viewport height. viewport의 높이에 기반한 크기 조절
- * 1vh일 때 현재 viewport height의 1%를 의미
+  * 1vh일 때 현재 viewport height의 1%를 의미
 
