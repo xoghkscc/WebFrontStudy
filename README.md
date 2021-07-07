@@ -105,10 +105,10 @@ b 태그 : 굵은 글씨
    *	background-image : url(‘url 넣는 곳’)=>이미지가 바둑판 배열로 여러 개 나타남)
    *	background-size : 이미지의 사이즈(cover로 하면 사이즈에 맞게 이미지 사이즈가 조절됨)
 ### 2.5_여백
-####Margin
+#### Margin
    *	해당 요소의 border 바깥쪽의 여백
    *	해당 요소와 다른 요소와의 거리를 결정한다
    *	Top margin과 bottom margin이 만나는 곳에서는 둘 중 더 높은 margin만 적용된다
    *	Margin을 auto로 설정하면 자동으로 요소를 가운데로 정렬한다(좌우 margin만 되지 상하 margin은 되지 않으므로 따로 해줘야함)
-####Padding
+#### Padding
    * Padding은 컨텐츠부터 border까지의 여백이다
