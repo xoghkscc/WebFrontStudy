@@ -94,10 +94,7 @@ b 태그 : 굵은 글씨
 <img width="800" alt="cssdiner" src="https://user-images.githubusercontent.com/82793713/124751493-a8198a80-df61-11eb-9982-95a35db15b6a.PNG">
 ### 2.3_CSS 적용
 * Inline CSS (줄 내부 CSS)
-  * style attribute를 이용해 스타일을 적용하는 방식
 * Internal CSS (페이지 내부 CSS)
-  * head에 style태그를 이용하여 스타일을 적용하는 방식
 * External CSS (페이지 외부 CSS)
-  * 외부에 .css 파일을 불러와 페이지에 적용하는 방식
 
 
