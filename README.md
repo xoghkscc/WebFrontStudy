@@ -187,4 +187,36 @@ div1{
   * nowrap(기본값), wrap, wrap-reverse
 #### flexboxfroggy로 선택자 연습
 <img width="960" alt="캡처" src="https://user-images.githubusercontent.com/82793713/124755652-97b7de80-df66-11eb-9c47-7c1dbf1eba56.PNG"></img><br/>
- 
+
+### 2.12_display: grid
+* column과 row를 설정할 수 있는 레이아웃
+* grid-template-columns을 통해 columns의 개수와 각 컬럼의 폭을 정할 수 있음
+```C
+grid-template-columns: 25% 25% 10% auto;
+```
+* grid-template-rows를 통해 row의 개수와 각 행의 높이를 정할 수 있음
+```C
+grid-template-rows: 25% 25% auto;
+```
+* column-gap, row-gap을 통해 각 요소의 garp을 줄 수가 있다
+### 2.13_position property
+*	요소의 위치를 마음대로 설정하기 위한 속성
+*	position: static=>기본값. 포지션이 설정되지 않은 상태
+*	position: absolute=>포지션이 static이 아닌 부모 요소를 기준으로 절대적인 위치를 설정(없다면 웹브라우저를 기준으로)
+*	position: relative=>상대적인 위치를 설정
+*	position은 모두 부모 요소를 기준으로 결정된다
+*	position: fixed - viewport에서 항상 고정적인 위치를 설정
+* position: sticky=>처음에는 원래 위치에 존재하다가 스크롤이 내려가면 고정될 위치를 설정
+### 2.14_float
+*	다른 내용들이 해당 요소를 비켜가게 만든다
+*	float을 더 이상 적용하지 싶지 않은 경우 clear로 해제해줘야 한다
+### 2.15_반응형 웹 사이트
+*	viewport의 크기에 따라 스타일이 달라지는 웹 사이트
+*	Media Query를 사용한다
+* @medai 기기타입 and (원하는 크기)
+#### Media Types
+*	all : 모든 타입
+*	print: 프린터기에서 볼 때의 타입
+* screen: 컴퓨터 스크린, 테블릿, 스마트폰 등의 일반 기기
+* speech: 화면을 읽어주는 기기
+
