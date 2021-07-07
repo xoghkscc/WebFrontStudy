@@ -93,8 +93,9 @@ b 태그 : 굵은 글씨
 ####CSS Diner로 선택자 연습
 <img width="800" alt="cssdiner" src="https://user-images.githubusercontent.com/82793713/124751493-a8198a80-df61-11eb-9982-95a35db15b6a.PNG">
 ### 2.3_CSS 적용
-* Inline CSS (줄 내부 CSS)
-* Internal CSS (페이지 내부 CSS)
-* External CSS (페이지 외부 CSS)
+   *	Inline CSS (줄 내부 CSS)
+   *	Internal CSS (페이지 내부 CSS)
+   *	External CSS (페이지 외부 CSS)
+
 
 
