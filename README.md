@@ -99,8 +99,5 @@ b 태그 : 굵은 글씨
   * head에 style태그를 이용하여 스타일을 적용하는 방식
 * External CSS (페이지 외부 CSS)
   * 외부에 .css 파일을 불러와 페이지에 적용하는 방식
-#### External CSS(페이지 외부 CSS)적용 하는 법
-```C
-<link rel="stylesheet" href="css파일이 있는 경로">
-```
+
 
