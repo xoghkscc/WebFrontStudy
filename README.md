@@ -120,11 +120,57 @@ b 태그 : 굵은 글씨
    *	in : 인치
 #### 상대 길이 단위
 *	em : 현재 요소의 font-size에 비례한 크기조절
-  * 2.0em일 때 현재 요소에 설정된 font-size의 2배
 *	rem : 현제 페이지 html태그에 설정된 font-size에 비례한 크기 조절
-  * 2.0rem일 때 현재 페이지의 html 태그에 설정된 font-size의 두 배
 *	vw : viewport width. 현재 웹 페이지를 보고있는 프로그램의 너비에 기반
-  * 1vw일 때 현재 viewport width의 1%를 의미
 *	vh : viewport height. viewport의 높이에 기반한 크기 조절
-  * 1vh일 때 현재 viewport height의 1%를 의미
+### 2.7_텍스트
+*	text-align : 텍스트 정렬
+*	vertical align : 줄 내부에서의 위치 설정
+*	text-decoration : 밑줄
+*	text-transform : 대소문자 변경
+*	text-indent : 들여쓰기
+*	letter-spacing : 글자 간격 설정
+*	word-spacing : 단어 간격 설정
+*	line-height : 줄 간격 설정(-px은 안먹힘)
+*	white-space : 자동 줄 바꿈 설정
+### 2.8_글꼴
+#### font-family
+*	font-family 속성으로 원하는 글꼴을 선택할 수 있다
+*	기본적으로 사용자에 컴퓨터에 설치되지 않은 글꼴을 사용할 수 없다
+*	사용자의 컴퓨터에 해당 글꼴이 로드되지 않는 경우에 대비하여 여러 예비용 글꼴을 설정해놓을 수 있다
+*	사용자에게 번거롭게 글꼴을 설치하게 하는것보다는 CDN을 많이 활용한다
+```C
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+div1{
+    font-family: 'Nanum Myeongjo', serif;
+}
+```
+### 2.9_가상클래스
+*	first-child, nth-child(n/even/odd), last-child=>요소가 부모의 특정 번째 요소일 때를 선택함
+*	first-of-type, nth-if-type(n/even/odd), last-of-type)=>요소가 같은 타입들 중에서 특정 번째 요소일 때를 선택함
+*	hover=>요소에 마우스가 올라가 있는 상황을 선택함
+*	link=>해당 요소가 링크일때를 선택한다
+*	active=>해당 링크가 마우스로 활성화되고 있는 상황을 선택한다
+*	visited=>이미 방문했던 링크일 때를 선택한다
+*	더 많은 가상 클래스를 알고 싶으면 구글에 css pseudo class를 검색!
+### 2.10_디스플레이
+*	해당 요소가 어떻게 보여야 할지를 결정하는 속성
+*	이 속성의 기본값으로는 inline, block이 있다
+#### inline 요소의 특징
+*	문단 내부에서 영역을 지정할 때 사용한다
+*	새 줄에서 시작하지 않고, 필요한 내용만큼의 영역을 차지한다
+*	padding과 margin을 고려하지 않고 배치된다
+```C
+<a>
+```
+#### block 요소의 특징
+*	항상 새 줄에서 시작한다
+*	기본 너비는 100%여서 화면 끝까지 뻗어나간다
+*	padding과 margin이 제대로 적용된다
+*	박스취급
+```C
+<div>
+```
 
+
+ 
