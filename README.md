@@ -186,5 +186,5 @@ div1{
 * flex-wrap=> Flex 요소들을 한 줄 또는 여러 줄에 걸쳐 정렬
   * nowrap(기본값), wrap, wrap-reverse
 #### flexboxfroggy로 선택자 연습
-
+<img width="960" alt="캡처" src="https://user-images.githubusercontent.com/82793713/124755652-97b7de80-df66-11eb-9c47-7c1dbf1eba56.PNG"></img><br/>
  
