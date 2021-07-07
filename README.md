@@ -172,9 +172,19 @@ div1{
 <div>
 ```
 ### 2.11_display: flex
-*	justify-content=>Flex 요소들을 가로선 상에서 정렬한다.
- * ㅇ	 
-*	기본 너비는 100%여서 화면 끝까지 뻗어나간다
-*	padding과 margin이 제대로 적용된다
-*	박스취급
+* justify-content=>Flex 요소들을 가로선 상에서 정렬
+  * flex-start(기본값), flex-end, center, space-between, space-around, apace-evenly
+* flex-direction=>정렬할 방향을 지정
+  * row(기본값), row-reverse, column, column-reverse
+* align-items=>Flex 요소를 세로선 상에서 정렬
+  * flex-start, flex-end, center, baseline, stretch(기본값)
+* align-self=>지정된 align-items 값을 무시하고 Flex 요소를 새로선 상에서 정렬
+  * flex-start, flex-end, center, baseline, stretch(기본값)
+* flex-flow=>flex-direction and flex-wrap
+* align-content=>세로선 상에 여분의 공간이 있는 경우 Flex 컨테이너 사이의 간격을 조정
+  * flex-start, flex-end, center, space-between, space-around, apace-evenly, stretch(기본값)
+* flex-wrap=> Flex 요소들을 한 줄 또는 여러 줄에 걸쳐 정렬
+  * nowrap(기본값), wrap, wrap-reverse
+#### flexboxfroggy로 선택자 연습
+
  
