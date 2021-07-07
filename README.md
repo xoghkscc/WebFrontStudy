@@ -90,7 +90,7 @@ b 태그 : 굵은 글씨
 #### 선택자 우선순위
    *	태그<.class<#id
    *	같은 우선순위인 경우 가장 나중에 작성한 스타일이 적용된다
-####CSS Diner로 선택자 연습
+#### CSS Diner로 선택자 연습
 <img width="800" alt="cssdiner" src="https://user-images.githubusercontent.com/82793713/124751493-a8198a80-df61-11eb-9982-95a35db15b6a.PNG">
 ### 2.3_CSS 적용
    *	Inline CSS (줄 내부 CSS)
