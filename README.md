@@ -92,16 +92,13 @@ b 태그 : 굵은 글씨
    *	같은 우선순위인 경우 가장 나중에 작성한 스타일이 적용된다
 #### CSS Diner로 선택자 연습
 <img width="800" alt="cssdiner" src="https://user-images.githubusercontent.com/82793713/124751493-a8198a80-df61-11eb-9982-95a35db15b6a.PNG"></img><br/>
-### 2.2_선택자
-   *	Selector(선택자) { property(속성) : value(값); property : value;…. : CSS의 형식
-   *	CSS에서는 선택자를 이용해 원하는 요소를 선택할 수 있다.
-   *	tag : 해당 태그인 모든 HTML요소를 선택한다
-   *	.class : 해당 클래스 속성(attribute)을 가진 모든 HTML요소를 선택한다
-   *	#id : 해당 ID 속성을 가진 모든 HTML요쇼를 선택한다
 ### 2.3_CSS 적용
    *	Inline CSS (줄 내부 CSS)
    *	Internal CSS (페이지 내부 CSS)
    *	External CSS (페이지 외부 CSS)
-
+#### External CSS(페이지 외부 CSS)적용 하는 법 
+```C
+<link rel="stylesheet" href="./css 파일이 있는 ">
+```
 
 
