@@ -171,6 +171,10 @@ div1{
 ```C
 <div>
 ```
-
-
+### 2.11_display: flex
+*	justify-content=>Flex 요소들을 가로선 상에서 정렬한다.
+ *ㅇ	 
+*	기본 너비는 100%여서 화면 끝까지 뻗어나간다
+*	padding과 margin이 제대로 적용된다
+*	박스취급
  
