@@ -72,5 +72,10 @@ b 태그 : 굵은 글씨
    *	Color : 컬러를 입력할 수 있는 칸
    *	textarea : 아주 긴 내용의 텍스트를 입력할 수 있다
    *	select : 사용자가 여러 옵션 중 하나를 선택할 수 있다.(option 태그를 통해 옵션을 추가할 수 있음)
- 
+#### form 태그
+ *	action태그 속성 : submit이 발생했을 시 데이텨를 전송할 URL
+ *	method태그 속성 : GET/POST/PUT/PATCH… 등의 http 데이터 전송 방식 설정
+
+
+
 
