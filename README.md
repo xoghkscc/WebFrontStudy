@@ -112,3 +112,19 @@ b 태그 : 굵은 글씨
    *	Margin을 auto로 설정하면 자동으로 요소를 가운데로 정렬한다(좌우 margin만 되지 상하 margin은 되지 않으므로 따로 해줘야함)
 #### Padding
    * Padding은 컨텐츠부터 border까지의 여백이다
+### 2.6_단위
+#### 절대 길이 단위
+   *	px : 픽셀(화소)
+   *	mm : 밀리미터
+   *	cm : 센치미터
+   *	in : 인치
+#### 상대 길이 단위
+   *	em : 현재 요소의 font-size에 비례한 크기조절
+    * 2.0em일 때 현재 요소에 설정된 font-size의 2배
+   *	rem : 현제 페이지 html태그에 설정된 font-size에 비례한 크기 조절
+    * 2.0rem일 때 현재 페이지의 html 태그에 설정된 font-size의 두 배
+   *	vw : viewport width. 현재 웹 페이지를 보고있는 프로그램의 너비에 기반
+    * 1vw일 때 현재 viewport width의 1%를 의미
+   *	vh : viewport height. viewport의 높이에 기반한 크기 조절
+    * 1vh일 때 현재 viewport height의 1%를 의미
+
