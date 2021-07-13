@@ -102,7 +102,6 @@ b 태그 : 굵은 글씨
 ```
 ### 2.4_배경
    *	background-image : url(‘url 넣는 곳’)=>이미지가 바둑판 배열로 여러 개 나타남
-   *	background-image : url(‘url 넣는 곳’)=>이미지가 바둑판 배열로 여러 개 나타남)
    *	background-size : 이미지의 사이즈(cover로 하면 사이즈에 맞게 이미지 사이즈가 조절됨)
 ### 2.5_여백
 #### Margin
